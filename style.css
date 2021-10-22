@@ -1,0 +1,135 @@
+html{
+    height: 100%;
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("beach.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.login{
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    color:  black;
+    
+    width: 400px;
+    
+    padding: 10px;
+    margin-top: 80px;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.form:hover{
+    opacity: 0.7;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+label{
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+
+input{
+    display: block;
+    margin: 25px;
+    border-radius: 5px;
+    border:none;
+    width: 80%;
+    height: 45px;
+    padding: 10px;
+}
+
+
+
+.button{
+    float: right;
+    background: black;
+    background-size: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.button:hover{
+    background-color: whitesmoke;
+    opacity: 0.5;
+    color: black;
+    font-size: 17px;
+    text-decoration: bold;
+    transition: 1s;
+}
+
+.signup{
+    padding-left: 15px;
+    margin-top: 13px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 400px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.error{
+    color: red;
+    background-color: lightpink;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.done{
+    color: green;
+    background-color: lightgreen;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: 1s;;
+}
+
+#message{
+    position: absolute;
+    bottom: -30px;
+    font-size: 15px;
+    color: black;
+    
+}
+
+::placeholder{
+    font-size: 15px;
+}
